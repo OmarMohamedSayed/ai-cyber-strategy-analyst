@@ -1,0 +1,29 @@
+[
+    {
+      "id": "BP-001",
+      "initiative": "Digital Transformation",
+      "description": "Move 70% of workloads to cloud within 2 years",
+      "priority": "High",
+      "business_goal": "Increase agility and scalability",
+      "risk_if_failed": "Operational inefficiency",
+      "owner": "CTO"
+    },
+    {
+      "id": "BP-002",
+      "initiative": "Customer Experience Enhancement",
+      "description": "Launch new mobile and web platforms",
+      "priority": "High",
+      "business_goal": "Increase customer satisfaction",
+      "risk_if_failed": "Customer churn",
+      "owner": "Product Team"
+    },
+    {
+      "id": "BP-003",
+      "initiative": "Market Expansion",
+      "description": "Expand into new regions",
+      "priority": "Medium",
+      "business_goal": "Increase revenue",
+      "risk_if_failed": "Revenue loss",
+      "owner": "Business Team"
+    }
+  ]

@@ -1,0 +1,252 @@
+[
+    {
+      "incident_id": "INC-001",
+      "title": "Phishing Credential Theft",
+      "description": "User credentials compromised via phishing email.",
+      "impact": "Unauthorized access to internal systems",
+      "severity": "High",
+      "root_cause": "Lack of MFA and user awareness",
+      "resolution": "Reset credentials and enforced MFA",
+      "category": "IAM"
+    },
+    {
+      "incident_id": "INC-002",
+      "title": "Ransomware Infection",
+      "description": "Endpoint infected with ransomware encrypting files.",
+      "impact": "Business operations disrupted",
+      "severity": "High",
+      "root_cause": "Unpatched vulnerability",
+      "resolution": "Isolated system and restored from backup",
+      "category": "Endpoint Security"
+    },
+    {
+      "incident_id": "INC-003",
+      "title": "Public Data Exposure",
+      "description": "Sensitive files exposed via public cloud storage.",
+      "impact": "Data leakage",
+      "severity": "High",
+      "root_cause": "Cloud misconfiguration",
+      "resolution": "Restricted access and audited storage policies",
+      "category": "Cloud Security"
+    },
+    {
+      "incident_id": "INC-004",
+      "title": "Privilege Escalation Attack",
+      "description": "User gained elevated privileges without authorization.",
+      "impact": "Unauthorized system changes",
+      "severity": "High",
+      "root_cause": "Excessive permissions",
+      "resolution": "Revoked privileges and enforced RBAC",
+      "category": "IAM"
+    },
+    {
+      "incident_id": "INC-005",
+      "title": "DDoS Attack",
+      "description": "Application unavailable due to high traffic flood.",
+      "impact": "Service downtime",
+      "severity": "High",
+      "root_cause": "Lack of DDoS protection",
+      "resolution": "Implemented WAF and rate limiting",
+      "category": "Network Security"
+    },
+    {
+      "incident_id": "INC-006",
+      "title": "Malware Infection",
+      "description": "Workstation infected with trojan malware.",
+      "impact": "Potential data exfiltration",
+      "severity": "Medium",
+      "root_cause": "No endpoint protection",
+      "resolution": "Removed malware and installed EDR",
+      "category": "Endpoint Security"
+    },
+    {
+      "incident_id": "INC-007",
+      "title": "SQL Injection Attack",
+      "description": "Web application vulnerable to SQL injection.",
+      "impact": "Database compromise risk",
+      "severity": "High",
+      "root_cause": "Input validation failure",
+      "resolution": "Fixed input validation and deployed WAF",
+      "category": "Application Security"
+    },
+    {
+      "incident_id": "INC-008",
+      "title": "Insider Data Leak",
+      "description": "Employee shared confidential data externally.",
+      "impact": "Data breach",
+      "severity": "High",
+      "root_cause": "Lack of monitoring and controls",
+      "resolution": "Revoked access and implemented DLP",
+      "category": "Data Security"
+    },
+    {
+      "incident_id": "INC-009",
+      "title": "Unpatched Server Exploit",
+      "description": "Attackers exploited outdated server vulnerability.",
+      "impact": "System compromise",
+      "severity": "High",
+      "root_cause": "Patch management failure",
+      "resolution": "Patched system and updated policies",
+      "category": "Vulnerability Management"
+    },
+    {
+      "incident_id": "INC-010",
+      "title": "API Data Exposure",
+      "description": "Sensitive data exposed via unsecured API.",
+      "impact": "Privacy violation",
+      "severity": "High",
+      "root_cause": "Missing authentication",
+      "resolution": "Implemented API authentication",
+      "category": "Application Security"
+    },
+    {
+      "incident_id": "INC-011",
+      "title": "Unauthorized VPN Access",
+      "description": "External user accessed network via VPN.",
+      "impact": "Security breach",
+      "severity": "High",
+      "root_cause": "Weak authentication",
+      "resolution": "Enabled MFA for VPN",
+      "category": "Network Security"
+    },
+    {
+      "incident_id": "INC-012",
+      "title": "Lost Company Laptop",
+      "description": "Laptop containing sensitive data lost.",
+      "impact": "Data exposure risk",
+      "severity": "Medium",
+      "root_cause": "No encryption",
+      "resolution": "Remote wipe and encryption policy enforced",
+      "category": "Endpoint Security"
+    },
+    {
+      "incident_id": "INC-013",
+      "title": "Cloud IAM Abuse",
+      "description": "Over-permissioned role used maliciously.",
+      "impact": "Resource manipulation",
+      "severity": "High",
+      "root_cause": "IAM misconfiguration",
+      "resolution": "Restricted roles and audit logs",
+      "category": "Cloud Security"
+    },
+    {
+      "incident_id": "INC-014",
+      "title": "Phishing Email Campaign",
+      "description": "Multiple employees targeted with phishing emails.",
+      "impact": "Credential compromise risk",
+      "severity": "Medium",
+      "root_cause": "Low awareness",
+      "resolution": "Security awareness training",
+      "category": "Human Security"
+    },
+    {
+      "incident_id": "INC-015",
+      "title": "Database Misconfiguration",
+      "description": "Database exposed without authentication.",
+      "impact": "Data breach risk",
+      "severity": "High",
+      "root_cause": "Misconfiguration",
+      "resolution": "Secured database access",
+      "category": "Data Security"
+    },
+    {
+      "incident_id": "INC-016",
+      "title": "Backup Failure",
+      "description": "Backup system failed during recovery.",
+      "impact": "Data loss",
+      "severity": "High",
+      "root_cause": "Untested DR process",
+      "resolution": "Tested backup procedures",
+      "category": "Resilience"
+    },
+    {
+      "incident_id": "INC-017",
+      "title": "Shadow IT Usage",
+      "description": "Employees used unauthorized SaaS tools.",
+      "impact": "Data leakage risk",
+      "severity": "Medium",
+      "root_cause": "Lack of governance",
+      "resolution": "Enforced IT policies",
+      "category": "Governance"
+    },
+    {
+      "incident_id": "INC-018",
+      "title": "Credential Stuffing Attack",
+      "description": "Attackers attempted multiple login attempts.",
+      "impact": "Account compromise risk",
+      "severity": "Medium",
+      "root_cause": "Weak password policy",
+      "resolution": "Implemented rate limiting",
+      "category": "IAM"
+    },
+    {
+      "incident_id": "INC-019",
+      "title": "Third-party Breach",
+      "description": "Vendor system compromised affecting organization.",
+      "impact": "Supply chain risk",
+      "severity": "High",
+      "root_cause": "No vendor assessment",
+      "resolution": "Improved vendor security checks",
+      "category": "Third-Party Risk"
+    },
+    {
+      "incident_id": "INC-020",
+      "title": "Unencrypted Data Transfer",
+      "description": "Sensitive data transmitted without encryption.",
+      "impact": "Data interception risk",
+      "severity": "High",
+      "root_cause": "Lack of encryption",
+      "resolution": "Enforced TLS encryption",
+      "category": "Data Security"
+    },
+    {
+      "incident_id": "INC-021",
+      "title": "Misconfigured Firewall",
+      "description": "Firewall rules allowed unauthorized traffic.",
+      "impact": "Network intrusion risk",
+      "severity": "High",
+      "root_cause": "Poor rule management",
+      "resolution": "Updated firewall rules",
+      "category": "Network Security"
+    },
+    {
+      "incident_id": "INC-022",
+      "title": "Privilege Misuse",
+      "description": "Admin used privileges beyond intended scope.",
+      "impact": "Policy violation",
+      "severity": "Medium",
+      "root_cause": "Lack of monitoring",
+      "resolution": "Implemented monitoring controls",
+      "category": "IAM"
+    },
+    {
+      "incident_id": "INC-023",
+      "title": "Web Application XSS",
+      "description": "Cross-site scripting vulnerability exploited.",
+      "impact": "User session compromise",
+      "severity": "Medium",
+      "root_cause": "Input sanitization issue",
+      "resolution": "Sanitized inputs",
+      "category": "Application Security"
+    },
+    {
+      "incident_id": "INC-024",
+      "title": "Cloud Service Outage",
+      "description": "Cloud provider outage impacted services.",
+      "impact": "Service downtime",
+      "severity": "Medium",
+      "root_cause": "Single cloud dependency",
+      "resolution": "Adopted multi-region setup",
+      "category": "Resilience"
+    },
+    {
+      "incident_id": "INC-025",
+      "title": "Compliance Violation Incident",
+      "description": "Failure to comply with regulatory requirement.",
+      "impact": "Regulatory penalties",
+      "severity": "High",
+      "root_cause": "Lack of compliance monitoring",
+      "resolution": "Implemented compliance tracking",
+      "category": "Compliance"
+    }
+  ]

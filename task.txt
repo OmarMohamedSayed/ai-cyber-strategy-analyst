@@ -1,0 +1,52 @@
+Cyber Security Strategy Development AI case:
+
+ 
+
+Brief
+
+Your client is a regional enterprise undergoing cloud migration, digital expansion, and regulatory scrutiny. The CISO wants to use an AI agent to support cyber strategy development.
+
+ 
+
+Design a use case for how the AI agent would support the cyber strategy team.
+
+ 
+
+What the AI agent does
+
+The AI agent acts as a cyber strategy analyst assistant, not a final decision-maker.
+
+Core functions
+
+Collect and summarize inputs
+Reads audit findings, risk registers, past incidents, and business plans 
+Extracts recurring themes such as IAM weakness, third-party exposure, resilience gaps, and cloud security issues 
+Map issues to business risks
+Connects cyber problems to business outcomes such as: 
+customer trust 
+operational disruption 
+regulatory exposure 
+revenue loss 
+M&A integration risk 
+Prioritize initiatives
+Suggests which initiatives should come first based on: 
+risk reduction 
+cost 
+implementation effort 
+regulatory urgency 
+alignment to business strategy 
+Draft strategy options
+Produces options such as: 
+risk-reduction focused strategy 
+resilience-focused strategy 
+digital-growth enabling strategy 
+Generate Board-ready outputs
+Creates executive summaries 
+Produces roadmaps 
+Drafts KPIs/KRIs 
+Prepares talking points for leadership
+ 
+
+Output:
+
+Well designed PowerPoint and/or HTML website.

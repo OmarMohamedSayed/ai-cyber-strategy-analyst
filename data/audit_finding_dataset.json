@@ -1,0 +1,154 @@
+{
+    "items": [
+      {
+        "id": "POL-AC-01",
+        "framework_name": "INTERNAL_POLICY",
+        "control_id": "AC-01",
+        "title": "User Access Management",
+        "description": "All user accounts must be approved before creation. Access rights must be reviewed quarterly and revoked upon termination.",
+        "domain": "Access Control",
+        "source": "Access Control Policy",
+        "metadata": { "section": "4.1" }
+      },
+      {
+        "id": "POL-AC-02",
+        "framework_name": "INTERNAL_POLICY",
+        "control_id": "AC-02",
+        "title": "Privileged Access Control",
+        "description": "Privileged accounts must be limited, monitored, and reviewed monthly. Multi-factor authentication is required for all admin access.",
+        "domain": "Access Control",
+        "source": "Access Control Policy",
+        "metadata": { "section": "4.2" }
+      },
+      {
+        "id": "POL-ID-01",
+        "framework_name": "INTERNAL_POLICY",
+        "control_id": "ID-01",
+        "title": "Identity Lifecycle Management",
+        "description": "User identities must be uniquely assigned and managed throughout their lifecycle including onboarding, role changes, and offboarding.",
+        "domain": "Identity Management",
+        "source": "IAM Policy",
+        "metadata": { "section": "3.1" }
+      },
+      {
+        "id": "POL-EN-01",
+        "framework_name": "INTERNAL_POLICY",
+        "control_id": "EN-01",
+        "title": "Data Encryption",
+        "description": "All sensitive data must be encrypted at rest and in transit using strong cryptographic standards such as AES-256 and TLS 1.2 or higher.",
+        "domain": "Encryption",
+        "source": "Security Policy",
+        "metadata": { "section": "5.1" }
+      },
+      {
+        "id": "POL-EN-02",
+        "framework_name": "INTERNAL_POLICY",
+        "control_id": "EN-02",
+        "title": "Key Management",
+        "description": "Encryption keys must be securely generated, stored, rotated, and revoked according to defined key management procedures.",
+        "domain": "Encryption",
+        "source": "Security Policy",
+        "metadata": { "section": "5.2" }
+      },
+      {
+        "id": "POL-IR-01",
+        "framework_name": "INTERNAL_POLICY",
+        "control_id": "IR-01",
+        "title": "Incident Response Management",
+        "description": "Security incidents must be identified, reported, and responded to within defined SLAs. Incident response procedures must be documented.",
+        "domain": "Incident Response",
+        "source": "Incident Response Policy",
+        "metadata": { "section": "6.1" }
+      },
+      {
+        "id": "POL-IR-02",
+        "framework_name": "INTERNAL_POLICY",
+        "control_id": "IR-02",
+        "title": "Incident Logging and Tracking",
+        "description": "All security incidents must be logged, tracked, and analyzed to identify root causes and improve response processes.",
+        "domain": "Incident Response",
+        "source": "Incident Response Policy",
+        "metadata": { "section": "6.2" }
+      },
+      {
+        "id": "POL-LG-01",
+        "framework_name": "INTERNAL_POLICY",
+        "control_id": "LG-01",
+        "title": "Logging and Monitoring",
+        "description": "System logs must be collected, monitored, and retained for at least 90 days to detect and investigate suspicious activities.",
+        "domain": "Monitoring",
+        "source": "Logging Policy",
+        "metadata": { "section": "7.1" }
+      },
+      {
+        "id": "POL-LG-02",
+        "framework_name": "INTERNAL_POLICY",
+        "control_id": "LG-02",
+        "title": "SIEM Integration",
+        "description": "All critical systems must send logs to a centralized SIEM platform for correlation and threat detection.",
+        "domain": "Monitoring",
+        "source": "Logging Policy",
+        "metadata": { "section": "7.2" }
+      },
+      {
+        "id": "POL-BC-01",
+        "framework_name": "INTERNAL_POLICY",
+        "control_id": "BC-01",
+        "title": "Backup Management",
+        "description": "Backups must be performed daily and stored securely. Backup restoration must be tested periodically.",
+        "domain": "Business Continuity",
+        "source": "Backup Policy",
+        "metadata": { "section": "8.1" }
+      },
+      {
+        "id": "POL-BC-02",
+        "framework_name": "INTERNAL_POLICY",
+        "control_id": "BC-02",
+        "title": "Disaster Recovery",
+        "description": "Disaster recovery plans must be documented and tested annually to ensure system availability during disruptions.",
+        "domain": "Business Continuity",
+        "source": "DR Policy",
+        "metadata": { "section": "8.2" }
+      },
+      {
+        "id": "POL-NW-01",
+        "framework_name": "INTERNAL_POLICY",
+        "control_id": "NW-01",
+        "title": "Network Security",
+        "description": "Firewalls and intrusion detection systems must be deployed to protect internal networks from unauthorized access.",
+        "domain": "Network Security",
+        "source": "Network Policy",
+        "metadata": { "section": "9.1" }
+      },
+      {
+        "id": "POL-NW-02",
+        "framework_name": "INTERNAL_POLICY",
+        "control_id": "NW-02",
+        "title": "Secure Configuration",
+        "description": "All systems must follow secure configuration baselines and unnecessary services must be disabled.",
+        "domain": "System Security",
+        "source": "Hardening Policy",
+        "metadata": { "section": "9.2" }
+      },
+      {
+        "id": "POL-VM-01",
+        "framework_name": "INTERNAL_POLICY",
+        "control_id": "VM-01",
+        "title": "Vulnerability Management",
+        "description": "Systems must be scanned regularly for vulnerabilities and patches must be applied within defined timelines.",
+        "domain": "Vulnerability Management",
+        "source": "Vulnerability Policy",
+        "metadata": { "section": "10.1" }
+      },
+      {
+        "id": "POL-VM-02",
+        "framework_name": "INTERNAL_POLICY",
+        "control_id": "VM-02",
+        "title": "Patch Management",
+        "description": "Critical patches must be applied within 7 days and high-risk vulnerabilities must be prioritized.",
+        "domain": "Vulnerability Management",
+        "source": "Patch Policy",
+        "metadata": { "section": "10.2" }
+      }
+    ]
+  }

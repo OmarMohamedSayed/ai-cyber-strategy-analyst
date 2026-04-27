@@ -1,0 +1,49 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+ENV/
+env/
+
+# ── Environment variables (contains secrets) ─────────────────────────────────
+.env
+!.env.example
+
+# ── IDE / Editor ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Qdrant local storage ────────────────────────────────────────────────────
+qdrant_storage/
+
+# ── Runtime data (keep structure, ignore generated content) ──────────────────
+cyber-strategy-ai/data/uploads/
+cyber-strategy-ai/data/documents.json
+cyber-strategy-ai/data/strategy_results.json
+
+# ── Jupyter / IPython ────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Testing / Coverage ──────────────────────────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# ── OS generated files ──────────────────────────────────────────────────────
+*.log
+*.tmp
