@@ -24,5 +24,5 @@ The platform ingests security and business inputs (framework documents, audit fi
 
 ## GitHub Repository
 
-[https://github.com/OmarMohamedSayed/ai_cyber_strategy_analyst_assistant](https://github.com/OmarMohamedSayed/ai_cyber_strategy_analyst_assistant)
+[https://github.com/OmarMohamedSayed/ai-cyber-strategy-analyst](https://github.com/OmarMohamedSayed/ai-cyber-strategy-analyst)
 
