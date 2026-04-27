@@ -1,3 +1,5 @@
+<meta name="google-site-verification" content="abc123..." />
+
 # AI Cyber Strategy Analyst Assistant
 
 AI Cyber Strategy Analyst Assistant is an open-source, AI-powered cybersecurity strategy platform that combines Retrieval-Augmented Generation (RAG), Large Language Models (LLMs), and multi-agent orchestration to support CISO teams in making evidence-based strategic decisions.
