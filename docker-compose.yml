@@ -1,0 +1,30 @@
+version: "3.9"
+
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: qdrant
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cyber-strategy-api
+    depends_on:
+      - qdrant
+    env_file:
+      - cyber-strategy-ai/.env
+    environment:
+      QDRANT_HOST: qdrant
+      QDRANT_PORT: 6333
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./cyber-strategy-ai/data:/app/data
+
+volumes:
+  qdrant_storage:

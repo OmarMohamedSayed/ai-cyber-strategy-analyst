@@ -566,8 +566,14 @@ The [`data/`](data/) directory contains source documents used for RAG retrieval.
 
 ```
 AI_Cyber_Strategy_Analyst_Assistant/
+├── .github/
+│   └── workflows/
+│       └── ci.yml                 # GitHub Actions CI
+├── docs/
+│   ├── architecture.md            # Architecture overview
+│   └── demo.md                    # End-to-end demo guide
 ├── data/                          # Source documents + README describing each
-├── cyber-strategy-ai/             # Application
+├── cyber-strategy-ai/             # FastAPI application
 │   ├── app/
 │   │   ├── main.py                # FastAPI entry point
 │   │   ├── core/                  # Config + Qdrant client
@@ -579,6 +585,12 @@ AI_Cyber_Strategy_Analyst_Assistant/
 │   │   └── utils/                 # Document loading + chunking
 │   ├── .env.example               # Environment template (24 variables)
 │   └── requirements.txt           # Python dependencies
+├── Dockerfile                     # Container build for API
+├── docker-compose.yml             # Local API + Qdrant orchestration
+├── LICENSE                        # MIT license
+├── CONTRIBUTING.md                # Contribution guide
+├── SECURITY.md                    # Security policy and reporting
+├── CHANGELOG.md                   # Project change history
 ├── ingest_all.sh                  # Batch ingestion script
 └── .gitignore                     # Git ignore rules
 ```
