@@ -1,4 +1,4 @@
-<meta name="google-site-verification" content="abc123..." />
+<meta name="google-site-verification" content="zD5vD77a_YR0GFYUcc9UCP99-AScCKlUzzh_lJIKEX8" />
 
 # AI Cyber Strategy Analyst Assistant
 
